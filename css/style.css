@@ -14,7 +14,7 @@ body{
     grid-template-rows: 70px 2500px 40px;
     grid-template-areas:
         "header header header header"
-        "main main main main "
+        "main main main main"
         "footer footer footer footer"
     ;
 }
@@ -70,13 +70,19 @@ header a{
 
 /* main de todas las paginas (grids */
 main{
-    background-image: url('https://us.123rf.com/450wm/vivat191192/vivat1911921509/vivat191192150900023/44488630-extracto-rojo-oscuro-iluminaci%C3%B3n-de-fondo.jpg?ver=6');
+    background-image: linear-gradient(to left, black, rgb(192, 7, 7), black) ;
+    /* background-image: url('https://us.123rf.com/450wm/vivat191192/vivat1911921509/vivat191192150900023/44488630-extracto-rojo-oscuro-iluminaci%C3%B3n-de-fondo.jpg?ver=6'); */
     width: 100%;
     height: 100%;
     background-size:cover;
     background-repeat:repeat;
 
     grid-area: main;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.795);
+    grid-area: nav;
 }
 
 /* footer para todas las paginas (grids) */
