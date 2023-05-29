@@ -19,7 +19,7 @@ header {
   align-items: center;
 }
 header h1 {
-  color: white;
+  color: #fff;
   font-size: 30px;
   text-transform: uppercase;
   margin-right: 300px;
@@ -42,7 +42,7 @@ header ul li a {
   text-decoration: none;
 }
 header ul li a:hover {
-  color: white;
+  color: #fff;
 }
 
 * {
@@ -81,7 +81,7 @@ footer section {
   align-items: center;
 }
 footer section p {
-  color: white;
+  color: #fff;
 }
 footer section div {
   margin-left: 400px;
@@ -128,15 +128,15 @@ main .cuadro-fondo #carouselExampleCaptions .carousel-control-next {
 }
 main section .titulos {
   color: #fdc6c1;
-  font-family: "Lemon Milk";
-  font-size: 40px;
+  font-family: "Bebas Neue";
+  font-size: 60px;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
   margin-top: 50px;
 }
 main section .parrafo1 {
-  color: white;
+  color: #fff;
   font-size: 20px;
   margin-top: 110px;
   margin-left: 50px;
@@ -150,7 +150,7 @@ main .noticia .primeraNoticia img {
   width: 100%;
 }
 main .noticia .primeraNoticia p {
-  color: white;
+  color: #fff;
 }
 main .noticia2 {
   width: 40%;
@@ -164,7 +164,7 @@ main .noticia2 .segundaNoticia img {
   width: 100%;
 }
 main .noticia2 .segundaNoticia p {
-  color: white;
+  color: #fff;
 }
 
 main .btn-group {
@@ -179,7 +179,7 @@ main .exitosos {
   margin-top: 50px;
 }
 main .exitosos .juegoExitosos1 p {
-  color: white;
+  color: #fff;
   font-size: large;
 }
 main .exitosos .juegoExitosos1 img {
@@ -204,6 +204,89 @@ main .exitosos .juegoExitosos1 img {
 }
 .exitosos1 .juegoExitosos1 img {
   width: 100%;
+}
+
+.logosPlataformas {
+  margin-top: 50px;
+  margin-left: 820px;
+}
+.logosPlataformas a {
+  padding: 0px 4px;
+}
+
+.consolaPc1 {
+  width: 40%;
+  margin-top: 30px;
+  margin-left: 120px;
+}
+.consolaPc1 .xbox p {
+  color: #fff;
+  font-size: large;
+}
+.consolaPc1 .xbox img {
+  width: 100%;
+}
+
+.consolaPc2 {
+  width: 40%;
+  margin-top: -570px;
+  margin-left: 970px;
+}
+.consolaPc2 .epic p {
+  color: #fff;
+  font-size: large;
+}
+.consolaPc2 .epic img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+main #proximamente {
+  background-image: url("https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000063714/2ac2500b2aae03a57bfe8cc4b41a1225305f043f9346f1bf0c4b6e78d81efebb");
+  width: 640px;
+  height: 320px;
+  margin-left: 640px;
+}
+main #proximamente .textoJuegoNintendo1 {
+  color: #fff;
+  margin-top: 100px;
+  padding-top: 350px;
+}
+main #proximamente2 {
+  background-image: url("https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000005308/f57f2d528fc32fd3780981575d15545e0c64a82bd764d55aa3f77716102e0cc6");
+  width: 640px;
+  height: 320px;
+  margin-top: 200px;
+  margin-left: 640px;
+}
+main #proximamente2 .textoJuegoNintendo2 {
+  color: #fff;
+  margin-top: -10px;
+  padding-top: 350px;
+}
+
+main .subtitulo {
+  color: #fdc6c1;
+  font-size: 30px;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+main div .textsobreNost {
+  color: #fff;
+  text-align: start;
+  font-family: "Alegreya";
+  font-size: 20px;
+  width: 800px;
+  margin-left: 70px;
+}
+main .borrador {
+  color: #fff;
+  margin-left: 800px;
+  margin-top: 100px;
+}
+main .pruebadeForo {
+  margin-top: 50px;
+  margin-left: 600px;
 }
 
 /*# sourceMappingURL=app.css.map */

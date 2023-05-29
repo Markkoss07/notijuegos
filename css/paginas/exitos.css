@@ -1,20 +1,17 @@
-main .btn-group {
-  font-family: "Bebas Neue";
-  font-size: 20px;
-  margin-left: 150px;
-  margin-top: 100px;
-}
-main .exitosos {
-  width: 50%;
-  margin-left: 500px;
-  margin-top: 50px;
-}
-main .exitosos .juegoExitosos1 p {
-  color: white;
-  font-size: large;
-}
-main .exitosos .juegoExitosos1 img {
-  width: 100%;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 14 |                 color: $color-Principal;
+ *    |                        ^^^^^^^^^^^^^^^^
+ *    '
+ *   scss\paginas\exitos.scss 14:24  root stylesheet */
 
-/*# sourceMappingURL=exitos.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 14 \2502                  color: $color-Principal;\d\a    \2502                         ^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\paginas\\exitos.scss 14:24  root stylesheet";
+}

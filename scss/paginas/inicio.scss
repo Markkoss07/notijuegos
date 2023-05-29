@@ -36,15 +36,15 @@ main{
     section{
         .titulos{
             color:#fdc6c1;
-            font-family: 'Lemon Milk';
-            font-size: 40px;        
+            font-family: 'Bebas Neue';
+            font-size: 60px;        
             text-transform:uppercase;            
             display: flex;
             justify-content: center;
             margin-top: 50px;
         }
         .parrafo1{
-            color: white;
+            color: $color-Principal;
             font-size: 20px;
             margin-top: 110px;
             margin-left: 50px;
@@ -59,7 +59,7 @@ main{
                 width: 100%;
             }
             p{
-                color: white; 
+                color: $color-Principal; 
             }
         }
         
@@ -74,7 +74,7 @@ main{
                 width: 100%; 
             }
             p{
-                color: white;
+                color: $color-Principal;
             }
         }
     }

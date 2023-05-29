@@ -9,7 +9,7 @@ header{
     justify-content: space-around;
     align-items: center; 
     h1{
-        color: white;
+        color: $color-Principal;
     font-size: 30px;
     text-transform: uppercase;
     margin-right: 300px;
@@ -29,7 +29,7 @@ header{
                     color: red;
                     text-decoration: none;
                     &:hover{
-                        color: white;
+                        color: $color-Principal;
                     }
                 }
         }

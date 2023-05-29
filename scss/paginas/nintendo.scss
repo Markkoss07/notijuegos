@@ -1,0 +1,27 @@
+main{
+    #proximamente{
+        background-image: url('https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000063714/2ac2500b2aae03a57bfe8cc4b41a1225305f043f9346f1bf0c4b6e78d81efebb');
+        width: 640px;
+        height: 320px;
+        margin-left: 640px;
+        .textoJuegoNintendo1{
+            color: $color-Principal;
+            margin-top: 100px;
+            padding-top: 350px;
+        }
+    }
+    #proximamente2{
+        background-image: url('https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000005308/f57f2d528fc32fd3780981575d15545e0c64a82bd764d55aa3f77716102e0cc6');
+        width: 640px;
+        height: 320px;
+        margin-top: 200px;
+        margin-left: 640px;
+        .textoJuegoNintendo2{
+            color: $color-Principal;
+            margin-top: -10px;
+            padding-top: 350px;
+            // margin-left: 580px;
+        }
+    }
+
+}
