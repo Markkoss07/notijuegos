@@ -7,7 +7,7 @@ main{
         .textoJuegoNintendo1{
             color: $color-Principal;
             margin-top: 100px;
-            padding-top: 350px;
+            padding-top: 330px;
         }
     }
     #proximamente2{
@@ -19,8 +19,20 @@ main{
         .textoJuegoNintendo2{
             color: $color-Principal;
             margin-top: -10px;
-            padding-top: 350px;
+            padding-top: 330px;
             // margin-left: 580px;
+        }
+    }
+    #proximamente3{
+        background-image: url('https://nintenduo.com/wp-content/uploads/2023/05/Mortal-Kombat-1-Switch-01.webp');
+        background-size: cover;
+        width: 640px;
+        height: 320px;
+        margin-top: 200px;
+        margin-left: 640px;
+        .textoJuegoNintendo3{
+            color: $color-Principal;
+            padding-top: 330px ;
         }
     }
 

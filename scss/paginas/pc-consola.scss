@@ -1,36 +1,53 @@
-.logosPlataformas{
-    margin-top: 50px;
-    margin-left: 820px;
-    a{
-        padding: 0px 4px;
-    }
-}
-.consolaPc1{
-    width: 40%;
-    margin-top: 30px;
-    margin-left: 120px;
-    .xbox{
-        p{
-            color: $color-Principal;
-            font-size: large;
-        }
-        img{
-            width: 100%;
+main{
+    .logosPlataformas{
+        margin-top: 50px;
+        margin-left: 820px;
+        a{
+            padding: 0px 4px;
         }
     }
-}
-.consolaPc2{
-    width: 40%;
-    margin-top: -570px;
-    margin-left: 970px;
-    .epic{
-        p{
-            color: $color-Principal;
-            font-size: large;
-        }
-        img{
-            width: 100%;
-            margin-top: 30px;
+    .consolaPc1{
+        width: 40%;
+        margin-top: 30px;
+        margin-left: 120px;
+        .xbox{
+            p{
+                color: $color-Principal;
+                font-size: large;
+            }
+            img{
+                width: 100%;
+            }
         }
     }
+    .consolaPc2{
+        width: 40%;
+        margin-top: -570px;
+        margin-left: 970px;
+        .epic{
+            p{
+                color: $color-Principal;
+                font-size: large;                
+            }
+            img{
+                width: 100%;
+                margin-top: 30px;
+            }
+        }
+    }
+    .consolaPc3{
+        width: 40%;
+        margin-top: 80px;
+        margin-left: 120px;
+        .steam{
+            p{
+                color: $color-Principal;
+                font-size: large;
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+
 }
