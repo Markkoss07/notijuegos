@@ -1,0 +1,23 @@
+footer{
+    background-color: rgb(10, 0, 31);    
+    width: 100%;
+    grid-area: footer; 
+        section{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+                p{
+                    color: white;
+                } 
+                div{
+                    margin-left: 400px;
+                    img{
+                        filter: invert(100%) sepia(5%) saturate(361%) hue-rotate(212deg) brightness(116%) contrast(87%);
+                        width: 26px;
+                        padding: 0px 4px;
+                        align-items: center;  
+                    }
+                }
+        }
+}

@@ -1,0 +1,21 @@
+.btn-group {
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.exitosos1 {
+  width: 50%;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+.exitosos1 .juegoExitosos1 p {
+  color: white;
+  font-size: large;
+}
+.exitosos1 .juegoExitosos1 img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=exitos2021.css.map */

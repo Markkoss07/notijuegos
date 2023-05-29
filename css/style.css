@@ -31,10 +31,10 @@ header{
     align-items: center; 
 }
 
-header section{
+/* header section{
     display: flex;
     flex-direction:row;
-}
+} */
 
 header h1{
     color: white;
@@ -81,10 +81,10 @@ main{
     grid-area: main;
 }
 
-nav{
+/* nav{
     background-color: rgba(0, 0, 0, 0.795);
     grid-area: nav;
-}
+} */
 
 /* footer para todas las paginas (grids) */
 footer{

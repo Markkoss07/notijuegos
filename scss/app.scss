@@ -1,1 +1,18 @@
 // importar todas las carpetas y sus contenidos del scss en este archivo
+//basicos
+@import './basicos/colores.scss';
+@import './basicos/tipografia.scss';
+
+//layout
+@import './layout/body.scss';
+@import './layout/header.scss';
+@import './layout/main.scss';
+@import './layout/footer.scss';
+
+//paginas
+@import './paginas/inicio.scss';
+@import './paginas/exitos.scss';
+@import './paginas/exitos2021.scss';
+@import './paginas/pc-consola.scss';
+@import './paginas/nintendo.scss';
+@import './paginas/sobre-nosotros.scss';
