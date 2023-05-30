@@ -20,4 +20,10 @@ main{
         justify-content: center;
         margin-top: 50px;
     }
+    @include mediaquery-mobile(){
+        h3{
+            font-size: 30px;
+        }
+        
+    }
 }

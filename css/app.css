@@ -6,6 +6,11 @@ body {
   grid-template-rows: 70px 2500px 40px;
   grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
 }
+@media (max-width: 576px) {
+  body {
+    grid-template-rows: 100px 2500px 40px;
+  }
+}
 
 header {
   background: rgba(0, 0, 0, 0.938);
@@ -44,6 +49,23 @@ header ul li a {
 header ul li a:hover {
   color: #fff;
 }
+@media (max-width: 576px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header h1 {
+    font-size: 20px;
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+  header ul {
+    margin-top: -30px;
+    font-size: 10px;
+  }
+}
 
 * {
   margin: 0;
@@ -67,6 +89,11 @@ main h3 {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+}
+@media (max-width: 576px) {
+  main h3 {
+    font-size: 30px;
+  }
 }
 
 footer {
@@ -92,6 +119,31 @@ footer section div img {
   padding: 0px 4px;
   align-items: center;
 }
+footer .footerInicio img {
+  width: 30px;
+}
+@media (max-width: 576px) {
+  footer {
+    font-size: 10px;
+  }
+  footer section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  footer section p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  footer section div {
+    margin-left: 50px;
+    margin-top: 8px;
+  }
+  footer section div img {
+    width: 20px;
+    text-align: center;
+  }
+}
 
 main .cuadro-fondo {
   background-color: rgba(0, 0, 0, 0.663);
@@ -108,7 +160,7 @@ main .cuadro-fondo #carouselExampleCaptions #primer-juego {
   height: 100%;
 }
 main .cuadro-fondo #carouselExampleCaptions h5 {
-  font-family: "Lemon Milk";
+  font-family: "Bebas Neue";
   font-size: 20px;
 }
 main .cuadro-fondo #carouselExampleCaptions .textPrimerJuego {
@@ -194,6 +246,80 @@ main .noticia4 .cuartaNoticia img {
 main .noticia4 .cuartaNoticia p {
   color: #fff;
 }
+@media (max-width: 576px) {
+  main .cuadro-fondo {
+    background-color: transparent;
+    width: 100%;
+    height: 250px;
+  }
+  main .cuadro-fondo #carouselExampleCaptions {
+    width: 100%;
+    margin-left: 0px;
+  }
+  main .cuadro-fondo #carouselExampleCaptions .carousel-control-prev {
+    background-color: transparent;
+    width: 20px;
+  }
+  main .cuadro-fondo #carouselExampleCaptions .carousel-control-next {
+    background-color: transparent;
+    width: 20px;
+  }
+  main section .titulos {
+    font-size: 40px;
+  }
+  main section .parrafo1 {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 15px;
+  }
+  main .noticia {
+    width: 100%;
+    margin-left: 0px;
+  }
+  main .noticia img {
+    margin-top: -15px;
+  }
+  main .noticia p {
+    font-size: small;
+    text-align: center;
+  }
+  main .noticia2 {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  main .noticia2 img {
+    margin-top: -15px;
+  }
+  main .noticia2 p {
+    font-size: small;
+    text-align: center;
+  }
+  main .noticia3 {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  main .noticia3 img {
+    margin-top: -15px;
+  }
+  main .noticia3 p {
+    font-size: small;
+    text-align: center;
+  }
+  main .noticia4 {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  main .noticia4 img {
+    margin-top: -15px;
+  }
+  main .noticia4 p {
+    font-size: small;
+    text-align: center;
+  }
+}
 
 main .btn-group {
   font-family: "Bebas Neue";
@@ -213,25 +339,56 @@ main .exitosos .juegoExitosos1 p {
 main .exitosos .juegoExitosos1 img {
   width: 100%;
 }
+@media (max-width: 576px) {
+  main .btn-group {
+    font-size: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  main .exitosos {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  main .exitosos .juegoExitosos1 p {
+    font-size: small;
+    text-align: center;
+  }
+}
 
-.btn-group {
+main .btn-group {
   font-family: "Bebas Neue";
   font-size: 20px;
   margin-left: 150px;
   margin-top: 100px;
 }
-
-.exitosos1 {
+main .exitosos1 {
   width: 50%;
   margin-left: 500px;
   margin-top: 50px;
 }
-.exitosos1 .juegoExitosos1 p {
-  color: white;
+main .exitosos1 .juegoExitosos1 p {
+  color: #fff;
   font-size: large;
 }
-.exitosos1 .juegoExitosos1 img {
+main .exitosos1 .juegoExitosos1 img {
   width: 100%;
+}
+@media (max-width: 576px) {
+  main .btn-group {
+    font-size: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  main .exitosos1 {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  main .exitosos1 .juegoExitosos1 p {
+    font-size: small;
+    text-align: center;
+  }
 }
 
 main .logosPlataformas {
@@ -278,6 +435,45 @@ main .consolaPc3 .steam p {
 main .consolaPc3 .steam img {
   width: 100%;
 }
+@media (max-width: 576px) {
+  main .logosPlataformas {
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+  main .consolaPc1 {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  main .consolaPc1 .xbox p {
+    text-align: center;
+    font-size: small;
+  }
+  main .consolaPc2 {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  main .consolaPc2 .epic p {
+    text-align: center;
+    font-size: small;
+  }
+  main .consolaPc2 .epic img {
+    margin-top: 0px;
+  }
+  main .consolaPc3 {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  main .consolaPc3 .steam p {
+    text-align: center;
+    font-size: small;
+  }
+  main .consolaPc3 .steam img {
+    margin-top: 0px;
+  }
+}
 
 main #proximamente {
   background-image: url("https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000063714/2ac2500b2aae03a57bfe8cc4b41a1225305f043f9346f1bf0c4b6e78d81efebb");
@@ -314,6 +510,44 @@ main #proximamente3 .textoJuegoNintendo3 {
   color: #fff;
   padding-top: 330px;
 }
+@media (max-width: 576px) {
+  main #proximamente {
+    width: 100%;
+    height: 200px;
+    margin-left: 0px;
+    background-size: cover;
+  }
+  main #proximamente .textoJuegoNintendo1 {
+    margin-left: 0px;
+    margin-top: 100px;
+    padding-top: 230px;
+    font-size: small;
+  }
+  main #proximamente2 {
+    width: 100%;
+    height: 200px;
+    margin-left: 0px;
+    background-size: cover;
+  }
+  main #proximamente2 .textoJuegoNintendo2 {
+    margin-left: 0px;
+    margin-top: 100px;
+    padding-top: 230px;
+    font-size: small;
+  }
+  main #proximamente3 {
+    width: 100%;
+    height: 200px;
+    margin-left: 0px;
+    background-size: cover;
+  }
+  main #proximamente3 .textoJuegoNintendo3 {
+    margin-left: 0px;
+    margin-top: 100px;
+    padding-top: 230px;
+    font-size: small;
+  }
+}
 
 main .subtitulo {
   color: #fdc6c1;
@@ -337,6 +571,25 @@ main .borrador {
 main .pruebadeForo {
   margin-top: 50px;
   margin-left: 600px;
+}
+@media (max-width: 576px) {
+  main .subtitulo {
+    margin-left: 20px;
+  }
+  main div .textsobreNost {
+    font-size: 15px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  main .borrador {
+    margin-left: 60px;
+    margin-top: 100px;
+  }
+  main .pruebadeForo {
+    width: 100%;
+    margin-top: 300px;
+    margin-left: 0px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

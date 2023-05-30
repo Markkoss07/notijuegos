@@ -1,20 +1,40 @@
-.btn-group{
-    font-family: 'Bebas Neue';
-    font-size: 20px;    
-    margin-left: 150px; 
-    margin-top: 100px;
-}
-.exitosos1{
-    width: 50%;
-    margin-left: 500px;
-    margin-top: 50px;
-    .juegoExitosos1{
-        p{
-            color: white;
-            font-size: large;
+main{
+    .btn-group{
+        font-family: 'Bebas Neue';
+        font-size: 20px;    
+        margin-left: 150px; 
+        margin-top: 100px;
+    }
+    .exitosos1{
+        width: 50%;
+        margin-left: 500px;
+        margin-top: 50px;
+        .juegoExitosos1{
+            p{
+                color: $color-Principal;
+                font-size: large;
+            }
+            img{
+                width: 100%;
+            }
         }
-        img{
+    }
+    @include mediaquery-mobile(){
+        .btn-group{
+            font-size: 10px;
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+        .exitosos1{
             width: 100%;
+            margin-left: 0px;
+            margin-top: 50px;
+            .juegoExitosos1{
+                p{
+                    font-size: small;
+                    text-align: center;
+                }
+            }
         }
     }
 }

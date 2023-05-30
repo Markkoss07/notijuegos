@@ -1,8 +1,18 @@
-body {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 70px 2500px 40px;
-  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
-}
+/* Error: Undefined mixin.
+ *    ,
+ * 11 | /     @include mediaquery-mobile(){
+ * 12 | |         grid-template-rows: 100px 2500px 40px;
+ * 13 | \     }
+ *    '
+ *   scss\layout\body.scss 11:5  root stylesheet */
 
-/*# sourceMappingURL=body.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 11 \2502  \250c      @include mediaquery-mobile(){\a 12 \2502  \2502          grid-template-rows: 100px 2500px 40px;\a 13 \2502  \2514      }\a    \2575 \a   scss\\layout\\body.scss 11:5  root stylesheet";
+}
