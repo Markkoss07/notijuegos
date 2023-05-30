@@ -25,6 +25,11 @@ footer{
                 width: 30px;
             }
         }
+        @each $redes in instagram, twitter, facebook{
+            a.#{$redes}{
+                background: url(../imagenes/#{$redes}.png);
+            }
+        }
         @include mediaquery-mobile(){
             font-size: 10px;
             section{

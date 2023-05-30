@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+a.instagram {
+  background: url(../imagenes/instagram.png);
+}
+
+a.twitter {
+  background: url(../imagenes/twitter.png);
+}
+
+a.facebook {
+  background: url(../imagenes/facebook.png);
+}
+
 body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -121,6 +133,15 @@ footer section div img {
 }
 footer .footerInicio img {
   width: 30px;
+}
+footer a.instagram {
+  background: url(../imagenes/instagram.png);
+}
+footer a.twitter {
+  background: url(../imagenes/twitter.png);
+}
+footer a.facebook {
+  background: url(../imagenes/facebook.png);
 }
 @media (max-width: 576px) {
   footer {

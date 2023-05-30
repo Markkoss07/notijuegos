@@ -1,3 +1,13 @@
+a.instagram {
+  background: url(../imagenes/instagram.png);
+}
 
+a.twitter {
+  background: url(../imagenes/twitter.png);
+}
+
+a.facebook {
+  background: url(../imagenes/facebook.png);
+}
 
 /*# sourceMappingURL=mediaqueries.css.map */
