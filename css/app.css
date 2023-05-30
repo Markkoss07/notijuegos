@@ -20,7 +20,7 @@ body {
 }
 @media (max-width: 576px) {
   body {
-    grid-template-rows: 100px 2500px 40px;
+    grid-template-rows: 100px 1950px 40px;
   }
 }
 
