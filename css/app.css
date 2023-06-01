@@ -17,6 +17,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 70px 2500px 40px;
   grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
+  background-color: black;
 }
 @media (max-width: 576px) {
   body {
@@ -35,11 +36,15 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+header img {
+  margin-left: 50px;
+}
 header h1 {
   color: #fff;
   font-size: 30px;
   text-transform: uppercase;
   margin-right: 300px;
+  margin-left: -360px;
 }
 header ul {
   display: flex;
@@ -68,10 +73,17 @@ header ul li a:hover {
     justify-content: center;
     align-items: center;
   }
+  header img {
+    width: 30px;
+    height: 25px;
+    margin-top: 40px;
+    margin-right: 250px;
+  }
   header h1 {
     font-size: 20px;
     margin-right: 0px;
-    margin-top: 30px;
+    margin-left: -20px;
+    margin-top: -25px;
   }
   header ul {
     margin-top: -30px;
@@ -109,7 +121,7 @@ main h3 {
 }
 
 footer {
-  background-color: rgb(10, 0, 31);
+  background-color: rgb(25, 1, 1);
   width: 100%;
   grid-area: footer;
 }
@@ -500,24 +512,27 @@ main #proximamente {
   background-image: url("https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000063714/2ac2500b2aae03a57bfe8cc4b41a1225305f043f9346f1bf0c4b6e78d81efebb");
   width: 640px;
   height: 320px;
-  margin-left: 640px;
+  margin-left: 340px;
 }
 main #proximamente .textoJuegoNintendo1 {
   color: #fff;
   margin-top: 100px;
-  padding-top: 330px;
+  margin-right: -350px;
+  padding-top: 10px;
+  padding-left: 660px;
 }
 main #proximamente2 {
   background-image: url("https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000005308/f57f2d528fc32fd3780981575d15545e0c64a82bd764d55aa3f77716102e0cc6");
   width: 640px;
   height: 320px;
-  margin-top: 200px;
-  margin-left: 640px;
+  margin-top: 150px;
+  margin-left: 850px;
 }
 main #proximamente2 .textoJuegoNintendo2 {
   color: #fff;
-  margin-top: -10px;
-  padding-top: 330px;
+  margin-top: 100px;
+  margin-left: -450px;
+  padding-right: 660px;
 }
 main #proximamente3 {
   background-image: url("https://nintenduo.com/wp-content/uploads/2023/05/Mortal-Kombat-1-Switch-01.webp");
