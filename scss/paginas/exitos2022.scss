@@ -198,22 +198,4 @@
             }
         }
     }
-    @include mediaquery-mobile(){
-        .btn-group{
-            font-size: 10px;
-            margin-left: 50px;
-            margin-top: 50px;
-        }
-        .exitosos{
-            width: 100%;
-            margin-left: 0px;
-            margin-top: 50px;
-            .juegoExitosos1{
-                p{
-                    font-size: small;
-                    text-align: center;
-                }
-            }
-        }
-    }
 }

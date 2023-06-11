@@ -1,43 +1,23 @@
 header{ 
-    background: rgba(0, 0, 0, 0.938);
-    width: 100%;
+    background: linear-gradient(to left, rgb(141, 4, 4), rgb(94, 1, 1), rgb(141, 4, 4)) ; 
+    // rgba(171, 1, 1, 0.912)
     position: sticky;
     top: 0px;
-    grid-area: header;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; 
-
-    img{
-        margin-left: 50px;
-    }
-    h1{
-        color: $color-Principal;
-        font-size: 30px;
-        text-transform: uppercase;
-        margin-right: 300px;
-        margin-left: -360px;
-    }
-    
-    ul{
-        display: flex;
-        flex-direction: row; 
-        list-style-type: none;
-        padding: 30px;
-        li{
-            padding: 0px 12px;
-            border-right: 1px solid rgb(69, 69, 69);
-            &:last-child{
-                border-right: 0px;
-            }
-                a{
-                    color: red;
-                    text-decoration: none;
-                    &:hover{
-                        color: $color-Principal;
-                    }
+    z-index: 2;
+    .container-fluid{
+        h1{
+            font-family: 'Roboto Condensed';
+            font-size: 25px;
+        }
+        .navbar-collapse{
+            font-family: 'Roboto Condensed';
+            font-size: 18px;
+            justify-content: end;
+            a{
+                &:hover{
+                    color: black;
                 }
+            }
         }
     }
     

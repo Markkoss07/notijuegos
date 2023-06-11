@@ -1,40 +1,40 @@
-main{
+#main-exitos{
+    height: 2900px;
+    width: 100%;
+    background: linear-gradient(45deg,rgb(54, 4, 4), rgb(143, 3, 3), rgb(54, 4, 4),rgb(160, 2, 2) );
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 9s linear infinite;
+        h3{
+            display: flex;
+            justify-content: center;
+            font-family: 'Bebas Neue';
+            font-weight: bold;
+            font-size: 50px;
+            font-weight: 450;
+            color: #fdc6c1;
+            padding-top: 60px;
+        }
     .btn-group{
-        font-family: 'Bebas Neue';
-        font-size: 20px;    
-        margin-left: 150px; 
-        margin-top: 100px;
-    }
-    .exitosos1{
-        width: 50%;
-        margin-left: 500px;
-        margin-top: 50px;
-        .juegoExitosos1{
-            p{
-                color: $color-Principal;
-                font-size: large;
-            }
-            img{
-                width: 100%;
-            }
+        margin-left: 60px;
+        margin-top: 60px;
+        .btn{
+            font-family: 'Alegreya';
+            font-size: 18px;
         }
     }
-    @include mediaquery-mobile(){
-        .btn-group{
-            font-size: 10px;
-            margin-left: 50px;
-            margin-top: 50px;
-        }
-        .exitosos1{
-            width: 100%;
-            margin-left: 0px;
-            margin-top: 50px;
-            .juegoExitosos1{
-                p{
-                    font-size: small;
-                    text-align: center;
-                }
+
+    .accordion-collapse{
+        .video-abajo2{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 20px;
+            iframe{
+                width: 30%;
+                padding: 0px 12px; 
             }
         }
     }
-}
+
+}  
