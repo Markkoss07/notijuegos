@@ -3,8 +3,3 @@
         @content;
     }
 }
-@each $redes in instagram, twitter, facebook{
-    a.#{$redes}{
-        background: url(../imagenes/#{$redes}.png);
-    }
-}

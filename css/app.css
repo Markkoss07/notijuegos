@@ -1,16 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-a.instagram {
-  background: url(../imagenes/instagram.png);
-}
-
-a.twitter {
-  background: url(../imagenes/twitter.png);
-}
-
-a.facebook {
-  background: url(../imagenes/facebook.png);
-}
-
 @keyframes cambiar {
   0% {
     background-position: 0 50%;
@@ -73,12 +61,6 @@ header .container-fluid .navbar-collapse a:hover {
     margin-top: -30px;
     font-size: 10px;
   }
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Alegreya";
 }
 
 footer {
@@ -880,78 +862,171 @@ footer div .logos-footer a img {
   margin-top: 30px;
 }
 
-main .logosPlataformas {
+#main-pc {
+  height: 2300px;
+  width: 100%;
+  background: linear-gradient(45deg, rgb(54, 4, 4), rgb(143, 3, 3), rgb(54, 4, 4), rgb(160, 2, 2));
+  background-size: 400% 400%;
+  position: relative;
+  animation: cambiar 9s linear infinite;
+}
+#main-pc h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 50px;
+  font-weight: 450;
+  color: #fdc6c1;
+  padding-top: 60px;
+}
+#main-pc .logosPlataformas {
   margin-top: 50px;
   margin-left: 820px;
 }
-main .logosPlataformas a {
+#main-pc .logosPlataformas a {
   padding: 0px 4px;
 }
-main .consolaPc1 {
-  width: 40%;
-  margin-top: 30px;
-  margin-left: 120px;
+#main-pc .consolaPc1 {
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-main .consolaPc1 .xbox p {
+#main-pc .consolaPc1 .xbox p {
+  width: 80%;
   color: white;
   font-size: large;
+  text-align: center;
 }
-main .consolaPc1 .xbox img {
-  width: 100%;
+#main-pc .consolaPc1 .xbox img {
+  width: 80%;
 }
-main .consolaPc2 {
-  width: 40%;
-  margin-top: -570px;
-  margin-left: 970px;
-}
-main .consolaPc2 .epic p {
+#main-pc .consolaPc1 .epic p {
+  text-align: center;
   color: white;
   font-size: large;
+  align-items: center;
 }
-main .consolaPc2 .epic img {
+#main-pc .consolaPc1 .epic img {
   width: 100%;
-  margin-top: 30px;
 }
-main .consolaPc3 {
-  width: 40%;
-  margin-top: 80px;
-  margin-left: 120px;
+#main-pc .consolaPc2 {
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-main .consolaPc3 .steam p {
+#main-pc .consolaPc2 .steam p {
+  width: 80%;
   color: white;
   font-size: large;
+  text-align: center;
 }
-main .consolaPc3 .steam img {
+#main-pc .consolaPc2 .steam img {
+  width: 80%;
+}
+#main-pc .consolaPc2 .riot p {
+  text-align: center;
+  color: white;
+  font-size: large;
+  align-items: center;
+}
+#main-pc .consolaPc2 .riot img {
   width: 100%;
+}
+#main-pc .consolaPc3 {
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#main-pc .consolaPc3 .epic2 {
+  margin-right: auto;
+}
+#main-pc .consolaPc3 .epic2 p {
+  width: 70%;
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+#main-pc .consolaPc3 .epic2 img {
+  width: 650px;
+}
+#main-pc .consolaPc3 .steam2 {
+  margin-left: auto;
+}
+#main-pc .consolaPc3 .steam2 p {
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+#main-pc .consolaPc3 .steam2 img {
+  width: 700px;
 }
 
-main #proximamente {
-  background-image: url("https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000063714/2ac2500b2aae03a57bfe8cc4b41a1225305f043f9346f1bf0c4b6e78d81efebb");
+#main-nintendo {
+  height: 2000px;
+  width: 100%;
+  background: linear-gradient(45deg, rgb(54, 4, 4), rgb(143, 3, 3), rgb(54, 4, 4), rgb(160, 2, 2));
+  background-size: 400% 400%;
+  position: relative;
+  animation: cambiar 9s linear infinite;
+}
+#main-nintendo h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 50px;
+  font-weight: 450;
+  color: #fdc6c1;
+  padding-top: 60px;
+}
+#main-nintendo .casilla1-prox {
+  width: 70%;
+  margin: auto;
+  box-shadow: 10px 10px 5px -1px rgba(78, 78, 78, 0.13);
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(78, 78, 78, 0.13);
+  -moz-box-shadow: 10px 10px 5px -1px rgba(78, 78, 78, 0.13);
+  display: flex;
+  flex-direction: row;
+}
+#main-nintendo .casilla1-prox img {
   width: 640px;
   height: 320px;
-  margin-left: 340px;
 }
-main #proximamente .textoJuegoNintendo1 {
+#main-nintendo .casilla1-prox .textoJuegoNintendo1 {
   color: white;
-  margin-top: 100px;
-  margin-right: -350px;
-  padding-top: 10px;
-  padding-left: 660px;
+  margin-left: 50px;
+  margin-top: 20px;
 }
-main #proximamente2 {
-  background-image: url("https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000005308/f57f2d528fc32fd3780981575d15545e0c64a82bd764d55aa3f77716102e0cc6");
+#main-nintendo .casilla2-prox {
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 10px 10px 5px -1px rgba(78, 78, 78, 0.13);
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(78, 78, 78, 0.13);
+  -moz-box-shadow: 10px 10px 5px -1px rgba(78, 78, 78, 0.13);
+  display: flex;
+  flex-direction: row;
+}
+#main-nintendo .casilla2-prox img {
   width: 640px;
   height: 320px;
-  margin-top: 150px;
-  margin-left: 850px;
 }
-main #proximamente2 .textoJuegoNintendo2 {
+#main-nintendo .casilla2-prox .textoJuegoNintendo1 {
   color: white;
-  margin-top: 100px;
-  margin-left: -450px;
-  padding-right: 660px;
+  margin-left: 50px;
+  margin-top: 20px;
 }
-main #proximamente3 {
+#main-nintendo #proximamente3 {
   background-image: url("https://nintenduo.com/wp-content/uploads/2023/05/Mortal-Kombat-1-Switch-01.webp");
   background-size: cover;
   width: 640px;
@@ -959,42 +1034,42 @@ main #proximamente3 {
   margin-top: 200px;
   margin-left: 640px;
 }
-main #proximamente3 .textoJuegoNintendo3 {
+#main-nintendo #proximamente3 .textoJuegoNintendo3 {
   color: white;
   padding-top: 330px;
 }
 @media (max-width: 576px) {
-  main #proximamente {
+  #main-nintendo #proximamente {
     width: 100%;
     height: 200px;
     margin-left: 0px;
     background-size: cover;
   }
-  main #proximamente .textoJuegoNintendo1 {
+  #main-nintendo #proximamente .textoJuegoNintendo1 {
     margin-left: 0px;
     margin-top: 100px;
     padding-top: 230px;
     font-size: small;
   }
-  main #proximamente2 {
+  #main-nintendo #proximamente2 {
     width: 100%;
     height: 200px;
     margin-left: 0px;
     background-size: cover;
   }
-  main #proximamente2 .textoJuegoNintendo2 {
+  #main-nintendo #proximamente2 .textoJuegoNintendo2 {
     margin-left: 0px;
     margin-top: 100px;
     padding-top: 230px;
     font-size: small;
   }
-  main #proximamente3 {
+  #main-nintendo #proximamente3 {
     width: 100%;
     height: 200px;
     margin-left: 0px;
     background-size: cover;
   }
-  main #proximamente3 .textoJuegoNintendo3 {
+  #main-nintendo #proximamente3 .textoJuegoNintendo3 {
     margin-left: 0px;
     margin-top: 100px;
     padding-top: 230px;

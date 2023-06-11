@@ -1,4 +1,20 @@
-main{
+#main-pc{
+    height: 2300px;
+    width: 100%;
+    background: linear-gradient(45deg,rgb(54, 4, 4), rgb(143, 3, 3), rgb(54, 4, 4),rgb(160, 2, 2) );
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 9s linear infinite;
+        h3{
+            display: flex;
+            justify-content: center;
+            font-family: 'Bebas Neue';
+            font-weight: bold;
+            font-size: 50px;
+            font-weight: 450;
+            color: #fdc6c1;
+            padding-top: 60px;
+        }
     .logosPlataformas{
         margin-top: 50px;
         margin-left: 820px;
@@ -7,48 +23,99 @@ main{
         }
     }
     .consolaPc1{
-        width: 40%;
-        margin-top: 30px;
-        margin-left: 120px;
-        .xbox{
-            p{
-                color: white;
-                font-size: large;
+        width: 80%;
+        margin: auto;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+            .xbox{
+                p{
+                    width: 80%;
+                    color: white;
+                    font-size: large;
+                    text-align: center;
+                }
+                img{
+                    width: 80%;
+                }
             }
-            img{
-                width: 100%;
+            .epic{
+                p{
+                    text-align: center;
+                    color: white;
+                    font-size: large; 
+                    align-items: center;               
+                }
+                img{
+                    width: 100%;
+                    
+                }
             }
-        }
     }
     .consolaPc2{
-        width: 40%;
-        margin-top: -570px;
-        margin-left: 970px;
-        .epic{
+        width: 80%;
+        margin: auto;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .steam{
             p{
+                width: 80%;
                 color: white;
-                font-size: large;                
+                font-size: large;
+                text-align: center;
+            }
+            img{
+                width: 80%;
+            }
+        }
+        .riot{
+            p{
+                text-align: center;
+                color: white;
+                font-size: large; 
+                align-items: center;               
             }
             img{
                 width: 100%;
-                margin-top: 30px;
+                
             }
         }
     }
     .consolaPc3{
-        width: 40%;
-        margin-top: 80px;
-        margin-left: 120px;
-        .steam{
+        width: 80%;
+        margin: auto;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .epic2{
+            margin-right: auto;
+            p{
+                width: 70%;
+                color: white;
+                font-size: large;
+                text-align: center;
+            }
+            img{
+                width: 650px;
+            }
+        }
+        .steam2{
+            margin-left: auto;
             p{
                 color: white;
                 font-size: large;
+                text-align: center;
             }
             img{
-                width: 100%;
+                width: 700px;
             }
         }
     }
+
     // @include mediaquery-mobile(){
     //     .logosPlataformas{
     //         margin-top: 50px;
@@ -96,6 +163,6 @@ main{
                 
     //         }
     //     }
-
+    
     // }
 }
