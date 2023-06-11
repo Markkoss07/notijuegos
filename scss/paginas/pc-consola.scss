@@ -12,7 +12,7 @@ main{
         margin-left: 120px;
         .xbox{
             p{
-                color: $color-Principal;
+                color: white;
                 font-size: large;
             }
             img{
@@ -26,7 +26,7 @@ main{
         margin-left: 970px;
         .epic{
             p{
-                color: $color-Principal;
+                color: white;
                 font-size: large;                
             }
             img{
@@ -41,7 +41,7 @@ main{
         margin-left: 120px;
         .steam{
             p{
-                color: $color-Principal;
+                color: white;
                 font-size: large;
             }
             img{
@@ -49,53 +49,53 @@ main{
             }
         }
     }
-    @include mediaquery-mobile(){
-        .logosPlataformas{
-            margin-top: 50px;
-            margin-left: 80px;
-        }
-        .consolaPc1{
-            width: 100%;
-            margin-top: 30px;
-            margin-left: 0px;
-            .xbox{
-                p{
-                    text-align: center;
-                    font-size: small;
-                }
+    // @include mediaquery-mobile(){
+    //     .logosPlataformas{
+    //         margin-top: 50px;
+    //         margin-left: 80px;
+    //     }
+    //     .consolaPc1{
+    //         width: 100%;
+    //         margin-top: 30px;
+    //         margin-left: 0px;
+    //         .xbox{
+    //             p{
+    //                 text-align: center;
+    //                 font-size: small;
+    //             }
                 
-            }
-        }
-        .consolaPc2{
-            width: 100%;
-            margin-top: 30px;
-            margin-left: 0px;
-            .epic{
-                p{
-                    text-align: center;
-                    font-size: small;
-                }
-                img{
-                    margin-top: 0px;
-                }
+    //         }
+    //     }
+    //     .consolaPc2{
+    //         width: 100%;
+    //         margin-top: 30px;
+    //         margin-left: 0px;
+    //         .epic{
+    //             p{
+    //                 text-align: center;
+    //                 font-size: small;
+    //             }
+    //             img{
+    //                 margin-top: 0px;
+    //             }
                 
-            }
-        }
-        .consolaPc3{
-            width: 100%;
-            margin-top: 30px;
-            margin-left: 0px;
-            .steam{
-                p{
-                    text-align: center;
-                    font-size: small;
-                }
-                img{
-                    margin-top: 0px;
-                }
+    //         }
+    //     }
+    //     .consolaPc3{
+    //         width: 100%;
+    //         margin-top: 30px;
+    //         margin-left: 0px;
+    //         .steam{
+    //             p{
+    //                 text-align: center;
+    //                 font-size: small;
+    //             }
+    //             img{
+    //                 margin-top: 0px;
+    //             }
                 
-            }
-        }
+    //         }
+    //     }
 
-    }
+    // }
 }

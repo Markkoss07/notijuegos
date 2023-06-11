@@ -437,7 +437,7 @@ main .consolaPc1 {
   margin-left: 120px;
 }
 main .consolaPc1 .xbox p {
-  color: #fff;
+  color: white;
   font-size: large;
 }
 main .consolaPc1 .xbox img {
@@ -449,7 +449,7 @@ main .consolaPc2 {
   margin-left: 970px;
 }
 main .consolaPc2 .epic p {
-  color: #fff;
+  color: white;
   font-size: large;
 }
 main .consolaPc2 .epic img {
@@ -462,50 +462,11 @@ main .consolaPc3 {
   margin-left: 120px;
 }
 main .consolaPc3 .steam p {
-  color: #fff;
+  color: white;
   font-size: large;
 }
 main .consolaPc3 .steam img {
   width: 100%;
-}
-@media (max-width: 576px) {
-  main .logosPlataformas {
-    margin-top: 50px;
-    margin-left: 80px;
-  }
-  main .consolaPc1 {
-    width: 100%;
-    margin-top: 30px;
-    margin-left: 0px;
-  }
-  main .consolaPc1 .xbox p {
-    text-align: center;
-    font-size: small;
-  }
-  main .consolaPc2 {
-    width: 100%;
-    margin-top: 30px;
-    margin-left: 0px;
-  }
-  main .consolaPc2 .epic p {
-    text-align: center;
-    font-size: small;
-  }
-  main .consolaPc2 .epic img {
-    margin-top: 0px;
-  }
-  main .consolaPc3 {
-    width: 100%;
-    margin-top: 30px;
-    margin-left: 0px;
-  }
-  main .consolaPc3 .steam p {
-    text-align: center;
-    font-size: small;
-  }
-  main .consolaPc3 .steam img {
-    margin-top: 0px;
-  }
 }
 
 main #proximamente {
