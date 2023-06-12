@@ -1,6 +1,5 @@
 header{ 
     background: linear-gradient(to left, rgb(141, 4, 4), rgb(94, 1, 1), rgb(141, 4, 4)) ; 
-    // rgba(171, 1, 1, 0.912)
     position: sticky;
     top: 0px;
     z-index: 2;
@@ -21,28 +20,28 @@ header{
         }
     }
     
-    @include mediaquery-mobile(){
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       img{
-        width: 30px;
-        height: 25px;
-        margin-top: 40px;
-        margin-right: 250px;
-        }
-       h1{
-        font-size: 20px;
-        margin-right: 0px;
-        margin-left: -20px;
-        margin-top: -25px;
-       }
-       ul{
-        margin-top: -30px;
-        font-size: 10px;
-       }
+    // @include mediaquery-mobile(){
+    //    display: flex;
+    //    flex-direction: column;
+    //    justify-content: center;
+    //    align-items: center;
+    //    img{
+    //     width: 30px;
+    //     height: 25px;
+    //     margin-top: 40px;
+    //     margin-right: 250px;
+    //     }
+    //    h1{
+    //     font-size: 20px;
+    //     margin-right: 0px;
+    //     margin-left: -20px;
+    //     margin-top: -25px;
+    //    }
+    //    ul{
+    //     margin-top: -30px;
+    //     font-size: 10px;
+    //    }
 
 
-    }
+    // }
 }
